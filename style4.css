@@ -1,0 +1,43 @@
+body{
+    background: coral;
+ height: 100%;
+}
+.wrapper{
+    height: 150px;
+    color: rgb(20, 12, 12);
+   margin: 30px auto;
+   text-align: center;
+   
+   
+}
+h2{
+font-size: 3rem;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#seconds, #tens, .dots{
+
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    border-radius: 5px;
+    background: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px, 10px;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background: chocolate;
+    color: #fff;
+}
